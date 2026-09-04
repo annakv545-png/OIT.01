@@ -1,0 +1,18 @@
+
+
+.btn-open-modal {
+    background-color: #ffffff;       
+    color: #000000;                 
+    border: 1px solid #ffffff;
+    padding: 9px 18px;               
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;        
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.btn-open-modal:hover {
+    background-color: #cccccc;       
+    border-color: #cccccc;
+}

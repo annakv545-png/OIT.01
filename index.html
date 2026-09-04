@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagine Agency - Portfolio</title>
+    
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/hero.css">
+    <link rel="stylesheet" href="css/portfolio.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/services.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/buttons.css">
+    <link rel="stylesheet" href="css/forms.css">
+    <link rel="stylesheet" href="css/footer.css">
+    
+</head>
+<body>
+    <div class="main-container">
+        <header>
+            <a href="index.html" class="logo">Logo</a>
+            <nav class="nav-links">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    
+                    <li><a href="project.html">Rewies</a></li>
+                    <li><a href="#contact">Contact</a></li>
+
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <form class="header-search" action="#" method="get">
+                    <input type="text" placeholder="Search..." required>
+                    <button type="submit" aria-label="Search">
+                                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+                    </button>
+                </form>
+
+                <button type="button" id="openModalBtn" class="btn-open-modal">Registration</button>
+            </div>
+
+        </header>
+
+        <section class="hero">
+            <h1>Creative Brand & Identity Design Agency. We Are Imagine Stunning Visual Designs.</h1>
+        </section>
+
+        <section id="portfolio">
+            <h2>Portfolio</h2>
+            <div class="portfolio-grid">
+              
+                <a href="project.html" class="portfolio-item">
+                    <img src="img/Rectangle 1.png" alt="Фотоапарат Nikon D750">
+                </a>
+                <div class="portfolio-item">
+                    <img src="img/Rectangle 4.png" alt="Навушники">
+                </div>
+                <div class="portfolio-item">
+                    <img src="img/Rectangle 11.png" alt="Тример для бороди">
+                </div>
+                <div class="portfolio-item">
+                    <img src="img/Rectangle 12.png" alt="Об'єктив Lensbaby">
+                </div>
+                <div class="portfolio-item">
+                    <img src="img/Rectangle 2.png" alt="Смарт-динамік з рослиною">
+                </div>
+                <div class="portfolio-item">
+                    <img src="img/Rectangle 3.png" alt="Камера Polaroid OneStep 2">
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>About</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci odio amet consectetur volutpat sodales a lectus a. Et gravida tincidunt morbi habitasse. Ultrices magna laoreet ornare Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci odio amet consectetur volutpat sodales a lectus a. Et gravida tincidunt morbi habitasse.
+            </p>
+            <div class="team-grid">
+                <div class="team-member">
+                    <img src="img/Rectangle 10.png" alt="Приклад роботи № 1">
+                </div>
+                <div class="team-member">
+                    <img src="img/Rectangle 7.png" alt="Приклад роботи № 2">
+                </div>
+                <div class="team-member">
+                    <img src="img/Rectangle 8.png" alt="Приклад роботи № 3">
+                </div>
+                <div class="team-member">
+                    <img src="img/Rectangle 9.png" alt="Приклад роботи № 4">
+                </div>
+            </div>
+        </section>
+
+        <section id="services">
+            <h2>Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <h3>Web Development</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci odio amet consectetur volutpat sodales a lectus a. Et gravida tincidunt morbi habitasse. Ultrices magna laoreet ornare</p>
+                    <a href="#">Get a quote</a>
+                </div>
+                <div class="service-card">
+                    <h3>Product Design</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci odio amet consectetur volutpat sodales a lectus a. Et gravida tincidunt morbi habitasse. Ultrices magna laoreet ornare</p>
+                    <a href="#">Get a quote</a>
+                </div>
+                <div class="service-card dark">
+                    <h3>Graphic Design</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci odio amet consectetur volutpat sodales a lectus a. Et gravida tincidunt morbi habitasse. Ultrices magna laoreet ornare</p>
+                    <a href="#">Get a quote</a>
+                </div>
+                <div class="service-card dark">
+                    <h3>Mobile App</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci odio amet consectetur volutpat sodales a lectus a. Et gravida tincidunt morbi habitasse. Ultrices magna laoreet ornare</p>
+                    <a href="#">Get a quote</a>
+                </div>
+            </div>
+        </section>
+        
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>contact@email.com</p>
+            <p>+0 000 000</p>
+        </section>
+        
+        <footer>
+            <div class="footer-bottom">
+                <p class="footer-copy">2026 Company</p>
+                <div class="footer-links-bottom">
+                    <a href="#">Terms and Conditions</a>
+                    <a href="#">Privacy Policy</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+<div id="registrationModal" class="modal">
+    <div class="modal-overlay" id="modalOverlay"></div>
+    
+    <div class="modal-content">
+        <button type="button" class="modal-close" id="closeModalBtn">&times;</button>
+        <h2>Client Registration</h2>
+        
+        <form action="#" method="post" class="auth-form">
+            <div class="form-group">
+                <label for="reg-name">Full Name</label>
+                <input type="text" id="reg-name" name="name" placeholder="John Doe" required>
+            </div>
+
+            <div class="form-group">
+                <label for="reg-email">Email Address</label>
+                <input type="email" id="reg-email" name="email" placeholder="client@email.com" required>
+            </div>
+
+            <div class="form-group">
+                <label for="reg-pass">Password</label>
+                <input type="password" id="reg-pass" name="password" minlength="8" placeholder="At least 8 characters" required>
+            </div>
+
+            <div class="form-group">
+                <label for="reg-pass-confirm">Confirm Password</label>
+                <input type="password" id="reg-pass-confirm" name="password_confirm" minlength="8" placeholder="Repeat password" required>
+            </div>
+
+            <div class="form-actions">
+                <button type="submit" class="btn-submit">Register</button>
+                <button type="reset" class="btn-reset">Reset</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const openBtn = document.getElementById('openModalBtn');
+            const closeBtn = document.getElementById('closeModalBtn');
+            const modal = document.getElementById('registrationModal');
+            const overlay = document.getElementById('modalOverlay');
+
+            if (openBtn && modal) {
+                openBtn.addEventListener('click', () => {
+                    modal.classList.add('active');
+                });
+            }
+
+            if (closeBtn && overlay && modal) {
+                const closeModal = () => modal.classList.remove('active');
+                closeBtn.addEventListener('click', closeModal);
+                overlay.addEventListener('click', closeModal);
+            }
+        });
+    </script>
+</body>
+</html> 

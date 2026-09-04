@@ -1,0 +1,126 @@
+/* Кнопка "Back" */
+.back-btn {
+    display: inline-block;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    margin-bottom: 50px;
+    transition: opacity 0.2s;
+}
+
+.back-btn:hover {
+    opacity: 0.7;
+}
+
+/* Заголовок та банер проєкту */
+.project-hero {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.project-title {
+    font-size: 42px;
+    font-weight: normal;
+    line-height: 1.2;
+    margin-bottom: 50px;
+}
+
+.project-main-img img {
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+    display: block;
+    margin: 0 auto 40px auto;
+}
+
+.project-intro {
+    max-width: 750px;
+    margin: 0 auto;
+    font-size: 15px;
+    line-height: 1.6;
+    color: #ccc;
+    text-align: center;
+}
+
+/* Секція деталей з шаховим розташуванням */
+.project-details {
+    margin-bottom: 100px;
+}
+
+.project-row {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 80px;
+}
+
+.project-row.reverse {
+    flex-direction: row-reverse;
+}
+
+.project-col {
+    flex: 1;
+}
+
+.img-col img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.text-col p {
+    font-size: 15px;
+    line-height: 1.6;
+    color: #ccc;
+}
+
+/* Секція відгуку клієнта */
+.customer-review {
+    margin-bottom: 100px;
+}
+
+.customer-review h2 {
+    font-size: 40px;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.review-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.review-avatar {
+    width: 260px;
+    flex-shrink: 0;
+}
+
+.review-avatar img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.review-content h3 {
+    font-size: 32px;
+    font-weight: normal;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+
+.review-content p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #ccc;
+    margin-bottom: 25px;
+}
+
+.review-author {
+    display: block;
+    font-size: 14px;
+    color: #888;
+}
